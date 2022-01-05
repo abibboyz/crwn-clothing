@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+### my comments from here
+
+//changes in V6 react router dom and React 17 and above
+1.Routes instead of switch
+2.useNavigate can directly navigate to specific path provided eg. onClick={() => navigate(`/${linkUrl}`, { replace: true })}
