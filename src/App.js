@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import {connect} from 'react-redux';
 import './App.css';
 import HomePage from './pages/homepage/homepage.componet';
@@ -55,8 +55,8 @@ const mapStateToProps = ({user}) =>({
   currentUser: user.currentUser
 });
 
-const mapDispachToProps = dispatch =>({
+const mapDispatchToProps = dispatch =>({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 }); 
 
-export default connect(mapStateToProps , mapDispachToProps)(App);
+export default connect(mapStateToProps , mapDispatchToProps)(App);
